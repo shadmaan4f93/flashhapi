@@ -37,7 +37,7 @@
     "mongodb": "2.2.33",
     "mongoose": "^4.13.11",
     "mongoose-express-session": "0.0.5",
-    "morgan": "^1.7.0",
+    "morgan": "^1.9.1",
     "node-cron": "^1.2.1",
     "nodemailer": "^4.4.2",
     "oauth2-server": "^3.0.0",
@@ -62,7 +62,7 @@
     "del": "~2.0.2",
     "eslint-plugin-angular": "~0.12.0",
     "estraverse": "~4.1.0",
-    "morgan": "~1.7.0",
+    "morgan": "~1.9.1",
     "passport-facebook": "^2.1.1"
   },
   "scripts": {
