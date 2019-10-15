@@ -1,0 +1,88 @@
+{
+  "secret" : "flash-admin",
+  "audience" : "nodejs-flashh-api",
+  "google": {
+    "local" : {
+      "api" : "",
+      "client_id" : "",
+      "client_secret": ""
+    },
+    "dev" : {
+      "api" : "",
+      "client_id" : "",
+      "client_secret": ""
+    },
+    "live" : {
+      "api" : ""
+    }
+  },
+  "facebook":{
+    "local": {
+      "client_id" : "",
+      "client_secret": ""
+    },
+    "dev": {
+      "client_id" : "",
+      "client_secret": ""
+    },
+    "live": {
+      "client_id" : "",
+      "client_secret": ""
+    }
+  },
+  "apple": {
+    "live": {
+      "apnOptions": {
+        "token": {
+          "key": "keys/AppleKey_AuthKey_4ERRPHQ5LD.p8",
+          "keyId": "4ERRPHQ5LD",
+          "teamId": "WEHN288N9X"
+        },
+        "production": true
+      }
+    },
+    "dev": {
+      "apnOptions": {
+        "token": {
+          "key": "keys/AppleKey_AuthKey_4ERRPHQ5LD.p8",
+          "keyId": "4ERRPHQ5LD",
+          "teamId": "WEHN288N9X"
+        },
+        "production": false
+      }
+    },
+    "appBundleIdentifier": "io.flashh.app"
+  },
+  "session": {
+    "secret": ""
+  },
+  "omnivore" :{
+    "apiKey" : ""
+  },
+  "stripe" :{
+    "dev": {
+      "secretKey": "",
+      "publishableKey": "",
+      "clientId": "YOUR_STRIPE_CLIENT_ID",
+      "authorizeUri": "https://connect.stripe.com/express/oauth/authorize",
+      "tokenUri": "https://connect.stripe.com/oauth/token"
+    },
+    "live": {
+      "secretKey": "YOUR_STRIPE_SECRET_KEY",
+      "publishableKey": "YOUR_STRIPE_PUBLISHABLE_KEY",
+      "clientId": "YOUR_STRIPE_CLIENT_ID",
+      "authorizeUri": "https://connect.stripe.com/express/oauth/authorize",
+      "tokenUri": "https://connect.stripe.com/oauth/token"
+    }
+  },
+  "payfirma" : {
+    "dev" : {
+      "username" : ""
+      ,"password" : ""
+      ,"clientId" : ""
+      ,"clientSecret" : ""
+      ,"basicToken" : ""
+    },
+    "live" : {}
+  }
+}

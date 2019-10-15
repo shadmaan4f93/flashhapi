@@ -1,0 +1,31 @@
+{
+    "firstName": "tillusion",
+	"lastName": "tech",
+	"email": "test@example.com",
+	"password": "test@123",
+	"country":"India",
+	"province": "province",
+	"city": "Noida",
+	"address": "Noida C",
+	"zip": "123456",
+	"isManager": "True",
+	"phone": "9999999999",
+	"department": "department",
+	"status": "open",
+    "starred":{
+       "contacts": [
+          {
+             "phone":"1234567890",
+             "address":"India"
+          }
+        ],
+       "staffs": [
+       	  {
+       		"name" : "tillusion",
+       		"phone" : "9999999999"
+       	  }
+       	]
+    },
+   "frequentContacts": "9999999990",
+   "scope": "Admin"
+}
