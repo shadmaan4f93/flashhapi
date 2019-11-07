@@ -35,7 +35,7 @@
     "mocha": "^5.2.0",
     "moment-timezone": "^0.5.14",
     "mongodb": "2.2.33",
-    "mongoose": "^4.13.11",
+    "mongoose": "^5.7.8",
     "mongoose-express-session": "0.0.5",
     "morgan": "^1.7.0",
     "node-cron": "^1.2.1",
